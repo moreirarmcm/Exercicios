@@ -1,0 +1,17 @@
+﻿
+IF NOT EXISTS (SELECT * FROM SYS.DATABASES WHERE name = 'LojaVirtural_Dev')
+BEGIN
+	CREATE DATABASE LojaVirtual_Dev
+END;
+
+IF NOT EXISTS (SELECT * FROM SYS.SCHEMAS WHERE Name = 'seguranca')
+BEGIN
+	USE LojaVirtual_Dev
+	EXEC ('CREATE SCHEMA seguranca AUTHORIZATION dbo;')
+END;
+
+IF NOT EXISTS (SELECT * FROM SYS.SCHEMAS WHERE Name = 'cadastro')
+BEGIN
+	USE LojaVirtual_Dev
+	EXEC ('CREATE SCHEMA cadastro AUTHORIZATION dbo;')
+END;
