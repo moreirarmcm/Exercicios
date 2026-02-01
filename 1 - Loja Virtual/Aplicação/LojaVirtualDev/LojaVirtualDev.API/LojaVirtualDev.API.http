@@ -1,0 +1,6 @@
+@LojaVirtualDev.API_HostAddress = http://localhost:5265
+
+GET {{LojaVirtualDev.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

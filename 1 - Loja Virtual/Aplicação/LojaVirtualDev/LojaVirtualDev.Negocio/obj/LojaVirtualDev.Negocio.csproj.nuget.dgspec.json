@@ -1,0 +1,232 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\morei\\source\\repos\\moreirarmcm\\Exercicios\\1 - Loja Virtual\\Aplicação\\LojaVirtualDev\\LojaVirtualDev.Negocio\\LojaVirtualDev.Negocio.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\morei\\source\\repos\\moreirarmcm\\Exercicios\\1 - Loja Virtual\\Aplicação\\LojaVirtualDev\\LojaVirtualDev.Dados\\LojaVirtualDev.Dados.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\morei\\source\\repos\\moreirarmcm\\Exercicios\\1 - Loja Virtual\\Aplicação\\LojaVirtualDev\\LojaVirtualDev.Dados\\LojaVirtualDev.Dados.csproj",
+        "projectName": "LojaVirtualDev.Dados",
+        "projectPath": "C:\\Users\\morei\\source\\repos\\moreirarmcm\\Exercicios\\1 - Loja Virtual\\Aplicação\\LojaVirtualDev\\LojaVirtualDev.Dados\\LojaVirtualDev.Dados.csproj",
+        "packagesPath": "C:\\Users\\morei\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\morei\\source\\repos\\moreirarmcm\\Exercicios\\1 - Loja Virtual\\Aplicação\\LojaVirtualDev\\LojaVirtualDev.Dados\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\morei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\morei\\source\\repos\\moreirarmcm\\Exercicios\\1 - Loja Virtual\\Aplicação\\LojaVirtualDev\\LojaVirtualDev.Entidades\\LojaVirtualDev.Entidades.csproj": {
+                "projectPath": "C:\\Users\\morei\\source\\repos\\moreirarmcm\\Exercicios\\1 - Loja Virtual\\Aplicação\\LojaVirtualDev\\LojaVirtualDev.Entidades\\LojaVirtualDev.Entidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.66, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[10.0.2, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\morei\\source\\repos\\moreirarmcm\\Exercicios\\1 - Loja Virtual\\Aplicação\\LojaVirtualDev\\LojaVirtualDev.Entidades\\LojaVirtualDev.Entidades.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\morei\\source\\repos\\moreirarmcm\\Exercicios\\1 - Loja Virtual\\Aplicação\\LojaVirtualDev\\LojaVirtualDev.Entidades\\LojaVirtualDev.Entidades.csproj",
+        "projectName": "LojaVirtualDev.Entidades",
+        "projectPath": "C:\\Users\\morei\\source\\repos\\moreirarmcm\\Exercicios\\1 - Loja Virtual\\Aplicação\\LojaVirtualDev\\LojaVirtualDev.Entidades\\LojaVirtualDev.Entidades.csproj",
+        "packagesPath": "C:\\Users\\morei\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\morei\\source\\repos\\moreirarmcm\\Exercicios\\1 - Loja Virtual\\Aplicação\\LojaVirtualDev\\LojaVirtualDev.Entidades\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\morei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\morei\\source\\repos\\moreirarmcm\\Exercicios\\1 - Loja Virtual\\Aplicação\\LojaVirtualDev\\LojaVirtualDev.Negocio\\LojaVirtualDev.Negocio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\morei\\source\\repos\\moreirarmcm\\Exercicios\\1 - Loja Virtual\\Aplicação\\LojaVirtualDev\\LojaVirtualDev.Negocio\\LojaVirtualDev.Negocio.csproj",
+        "projectName": "LojaVirtualDev.Negocio",
+        "projectPath": "C:\\Users\\morei\\source\\repos\\moreirarmcm\\Exercicios\\1 - Loja Virtual\\Aplicação\\LojaVirtualDev\\LojaVirtualDev.Negocio\\LojaVirtualDev.Negocio.csproj",
+        "packagesPath": "C:\\Users\\morei\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\morei\\source\\repos\\moreirarmcm\\Exercicios\\1 - Loja Virtual\\Aplicação\\LojaVirtualDev\\LojaVirtualDev.Negocio\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\morei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\morei\\source\\repos\\moreirarmcm\\Exercicios\\1 - Loja Virtual\\Aplicação\\LojaVirtualDev\\LojaVirtualDev.Dados\\LojaVirtualDev.Dados.csproj": {
+                "projectPath": "C:\\Users\\morei\\source\\repos\\moreirarmcm\\Exercicios\\1 - Loja Virtual\\Aplicação\\LojaVirtualDev\\LojaVirtualDev.Dados\\LojaVirtualDev.Dados.csproj"
+              },
+              "C:\\Users\\morei\\source\\repos\\moreirarmcm\\Exercicios\\1 - Loja Virtual\\Aplicação\\LojaVirtualDev\\LojaVirtualDev.Entidades\\LojaVirtualDev.Entidades.csproj": {
+                "projectPath": "C:\\Users\\morei\\source\\repos\\moreirarmcm\\Exercicios\\1 - Loja Virtual\\Aplicação\\LojaVirtualDev\\LojaVirtualDev.Entidades\\LojaVirtualDev.Entidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

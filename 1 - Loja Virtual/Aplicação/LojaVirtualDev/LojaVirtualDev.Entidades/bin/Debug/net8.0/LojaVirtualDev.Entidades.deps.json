@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "LojaVirtualDev.Entidades/1.0.0": {
+        "runtime": {
+          "LojaVirtualDev.Entidades.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LojaVirtualDev.Entidades/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
